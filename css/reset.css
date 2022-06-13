@@ -6,6 +6,7 @@ html, body, div, span, h1, h2, h3, p, a, img, header, footer, nav, section, ul, 
   box-sizing: border-box;
   text-decoration: none;
   background: none;
+  color: inherit;
 }
 
 img {
