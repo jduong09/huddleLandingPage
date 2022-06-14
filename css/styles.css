@@ -282,8 +282,13 @@ footer > div {
     flex-direction: row;
   }
 
-  div.feature-block:nth-child(3n) > img {
-    margin-right: 3rem;
+  div.feature-block:nth-child(3n) > div > h3, div.feature-block:nth-child(3n) > div > div {
+    width: 85%;
+    margin: 0 0 0 auto;
+  }
+
+  div.feature-block:nth-child(3n) > div > h3 {
+    margin-bottom: .5rem;
   }
 
   #main-ready-cta {
@@ -368,7 +373,7 @@ footer > div {
   .footer-social-media-list > li {
     margin-right: 1rem;
   }
-  
+
   footer > div {
     width: 100%;
     margin: 0;
